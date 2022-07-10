@@ -3,13 +3,13 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Button, Box } from "@mui/material";
 
 const SecondPage = () => (
   <Layout>
-    <Seo title="Page three" />
-    <h1>Hi from the third page</h1>
-    <p>Welcome to page 3</p>
-    <Link to="/">Go back to the homepage</Link>
+      <Box p={4}>
+          <Button variant="contained">Hello gatsby-theme-material-ui</Button>
+      </Box>
   </Layout>
 )
 
